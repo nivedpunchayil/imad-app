@@ -15,7 +15,8 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui','sunny-leone.jpg'));
+  res.sendFile(path.join(__dirname, 'ui','11815066-Big-Businessman-care-small-Businessman-vector-Stock-Vector-cartoon.jpg
+'));
 });
 
 
