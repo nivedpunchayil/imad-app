@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 app.get('/input1',function (req, res)
 { res.send('thomachan is oola');});
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.sendFile(path.join(__dirname, 'ui','style.css'));
 });
 
 app.get('/ui/small.png', function (req, res) {
